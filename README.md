@@ -71,15 +71,4 @@ Forced mode is included to demonstrate the mathematics of `B·u(k)`. Its input i
 - `R` controls how much the filter distrusts the measurement.
 - Larger relative `R` generally makes the filter rely more on the model; larger relative `Q` generally makes it adapt more readily to measurements.
 
-## Run locally
 
-```bash
-npm install
-npm run dev
-```
-
-Production build:
-
-```bash
-npm run build
-```
